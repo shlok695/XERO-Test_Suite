@@ -1,0 +1,41 @@
+TEST EXECUTION,,,,,,,,
+Directory,ID,Name,Assigned To,Priority,Tester,Executed Start,Executed End,Status
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-1,06.01 – TC1 Create New Invoice – Core happy path + GUI,Vyom Raj,Medium,Vyom Raj,04/21/2026 5:36:20 PM,04/21/2026 6:39:17 PM,Failed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-2,06.01-TC2 Create New Invoice – Entitlements (Admin vs Restricted),Vyom Raj,Medium,Vyom Raj,04/21/2026 5:45:58 PM,04/21/2026 5:46:26 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-16,06.01-TC3 Create New Invoice – Field Validation (Qty EP/BVA),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:27:38 PM,04/21/2026 6:27:38 PM,Failed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-17,06.01-TC4 Create New Invoice – Date Dependency Validation (Issue Date vs Due Date),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:39:50 PM,04/21/2026 6:39:50 PM,Failed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-18,06.01-TC5 Create New Invoice – Defaults & Invoice Settings (DDD + ST-Inv),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:34:05 PM,04/21/2026 6:35:12 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-19,06.01-TC6 Create New Invoice – Calculations + Status (Draft ? Approved),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:35:12 PM,04/21/2026 6:36:19 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite A,TR-20,06.01-TC7 Create New Invoice – DF-Out + Connectivity (Persistence + Safe Retry),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:36:20 PM,04/21/2026 6:38:37 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-28,12.01-TC1 Receivable Invoice Detail – GUI behavior (Filters/Columns/Grouping/Update/Layout),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:47:12 PM,04/21/2026 6:48:02 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-21,12.01-TC2 Receivable Invoice Detail – Entitlements (View/Export permissions),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:48:02 PM,04/21/2026 6:48:09 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-22,12.01-TC3 Receivable Invoice Detail – Field Validation (End Date EP/BVA),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:48:09 PM,04/21/2026 6:50:27 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-23,12.01-TC4 Receivable Invoice Detail – Date Dependency (End Date ? Start Date),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:50:27 PM,04/21/2026 6:50:36 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-24,12.01-TC5 Receivable Invoice Detail – Defaults + Status + Totals (DDD + STS + CL),Vyom Raj,Medium,Vyom Raj,04/21/2026 6:50:37 PM,04/21/2026 6:50:47 PM,Passed
+Release 1 / Cycle 1.1 (C1) - Vyom / Suite B,TR-25,12.01-TC6 Receivable Invoice Detail – DF-In + Connectivity + Export,Vyom Raj,Medium,Vyom Raj,04/21/2026 6:50:48 PM,04/21/2026 6:51:44 PM,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-50,08.11-TC1[GUI] Verify purchase order screen layout and Delete action visibility,Daanish Shaikh,Medium,,,,
+,,,,,Daanish Shaikh,4/25/2026 18:34,4/25/2026 18:35,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-51,08.11-TC2 [ET] Verify authorized user can initiate Delete action for an eligible purchase order,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:35,4/25/2026 18:36,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-52,08.11-TC3 DDV] Verify deletion/closure is allowed only for valid purchase order states,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:36,4/25/2026 18:37,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-53,08.11-TC4 [STS] Verify purchase order system state updates after deletion,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:37,4/25/2026 18:38,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-54,08.11 -TC5 [CC] Verify purchase order behavior when opened in two sessions,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:38,4/25/2026 18:41,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-55,08.11-TC6 [DF-In] Verify user confirmation input controls purchase order deletion,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:41,4/25/2026 18:42,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite A,TR-56,08.11-TC7 [DF-Out] Verify deleted purchase order is no longer visible in Purchase Orders list,Daanish Shaikh,Medium,Daanish Shaikh,4/25/2026 18:42,4/25/2026 18:42,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-35,12.07-TC1 [GUI] Verify Accounts Payable Aging Summary report screen layout and controls,Daanish Shaikh,Medium,Daanish Shaikh,4/23/2026 22:35,4/23/2026 22:38,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-36,12.07-TC2 [CF] Generate Accounts Payable Aging Summary report successfully,Daanish Shaikh,Medium,Daanish Shaikh,4/23/2026 22:38,4/23/2026 22:44,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-37,12.07-TC3 [CL] Verify aging bucket totals and grand total calculations,Daanish Shaikh,Medium,Daanish Shaikh,4/23/2026 22:44,4/23/2026 22:50,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-38,12.07-TC4 [DF-In] Verify report input parameters are accepted and applied correctly,Daanish Shaikh,Medium,Daanish Shaikh,4/23/2026 22:53,4/23/2026 22:54,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-39,12.07-TC5 [CF/GUI] Verify export to PDF from Accounts Payable Aging Summary,Daanish Shaikh,Medium,Daanish Shaikh,4/23/2026 22:54,4/23/2026 22:55,Passed
+Release 1 / Cycle 1.2 (C1) Daanish / Suite B,TR-40,12.07-TC6 [ET] Verify unauthorized access to report is restricted,Daanish Shaikh,Medium,Daanish Shaikh,4/24/2026 12:21,4/24/2026 12:24,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-42,11.08 - TC1 Supplier Bill Creation – Happy Path,Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:22,4/29/2026 22:23,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-43,11.08- TC2 Supplier Bill Creation – Entitlements (ET): authorized AP user vs restricted user [ET],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:23,4/29/2026 22:24,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-44,11.08 - TC3 Supplier Bill Creation – Field Validation (FV): required fields and invalid input handling [FV],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:24,4/29/2026 22:27,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-45,11.08 - TC4 Supplier Bill Creation – Data-Dependency Validation (DDV): Bill Date vs Due Date [DDV],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:35,4/29/2026 22:39,Failed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-46,11.08 - TC5 Supplier Bill Creation – Data-Driven Defaults (DDD): supplier / org defaults on a new bill [DD],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:28,4/29/2026 22:29,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-47,11.08 - TC6 Supplier Bill Creation – Account Type (AT): valid bill-line account/category selection [AT],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:29,4/29/2026 22:29,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite A,TR-48,"11.08 TC7 - Supplier Bill Creation – Status + Data Flow In (STS + DF-In): Draft persistence after save/reopen/update [STS, DF-In]",Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 22:29,4/29/2026 22:30,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite B,TR-79,12.02 - TC1 Payable Bill Detail Report – GUI Behavior + Defaults [DDD],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 23:05,4/29/2026 23:12,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite B,TR-80,12.02 - TC2 Payable Bill Detail Report – Entitlements [ET],Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 23:12,4/29/2026 23:12,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite B,TR-81,"12.02 - TC3 Payable Bill Detail Report – Parameter Handling [DDD, DDV]",Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 23:12,4/29/2026 23:21,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite B,TR-82,"12.02 - TC4 Payable Bill Detail Report – Data Dependency Validation + Expense Settings [DDV, ST-EXP]",Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 23:21,4/29/2026 23:22,Passed
+Release 1 / Cycle 1.4 (C1) Ashraf / Suite B,TR-83,"12.02 - TC5 Payable Bill Detail Report – Status + Calculations [STS, CL]",Ashraf Pinjari,Medium,Ashraf Pinjari,4/29/2026 23:22,4/29/2026 23:23,Passed
